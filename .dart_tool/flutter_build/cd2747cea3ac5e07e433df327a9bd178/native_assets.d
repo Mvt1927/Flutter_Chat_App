@@ -1,0 +1,1 @@
+ F:\\HocTap\\flutter\\flutter_chat_app\\.dart_tool\\flutter_build\\cd2747cea3ac5e07e433df327a9bd178\\native_assets.yaml: 

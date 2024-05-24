@@ -4,21 +4,27 @@ description: One-to-one chat and Firebase auth
 dependencies:
   flutter:
     sdk: flutter
-  image_picker: 0.1.1
-  google_sign_in: 0.3.1
-  firebase_analytics: 0.0.4
-  firebase_auth: 0.2.0
-  firebase_database: 0.0.12
-  firebase_storage: 0.0.5
-
+  image_picker: ^1.0.8
+  google_sign_in: ^6.2.1
+  firebase_analytics: ^10.8.9
+  firebase_auth: ^4.17.8
+  firebase_database: ^10.4.9
+  firebase_storage: ^11.6.9
+  firebase_core: ^2.0.0
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^0.1.0
-
+  cupertino_icons: ^1.0.8
+  firebase_messaging: ^14.7.19
+  barcode_widget: ^2.0.4
+  flutter_signin_button: ^2.0.0
+  provider: ^6.1.2
+environment:
+  sdk: '>=3.1.0 <4.0.0'
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+module:
+  androidX: true
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
